@@ -12,7 +12,7 @@ import get_data
 base_url = 'http://www.metrolyrics.com/'
 
 # Import data from file into dictionary
-song_dict = get_data.get_data_from_file('80sLyrics-v1.txt')
+song_dict = get_data.get_data_from_file('song.txt')
 
 # Iterate over dictionary and create URL for each song (specific for metrolyrics)
 for item in song_dict:
@@ -23,7 +23,7 @@ for item in song_dict:
     mod_curr_artist = curr_artist.replace(" ","-").lower()
     url = base_url + mod_curr_song + '-lyrics-' + mod_curr_artist
 
-    #print('Searching at URL = %s...' % url)
+    print('Searching at URL = %s...' % url)
     #print('Artist = %s, Song = %s' % (curr_artist,  curr_song))
 
     lyrics = get_data.get_lyrics(url)

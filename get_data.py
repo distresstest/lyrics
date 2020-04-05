@@ -43,19 +43,23 @@ def get_lyrics(url):
         else:
             lyrics = []
         # Strip out br tag and create lyric string
+        print("lyrics are...")
+        print lyrics
         full_lyrics = ""
         for lyric in lyrics:
+            print('Current lyric is...%s', lyric)
             for br in lyric.find_all("br"):
                 br.replace_with("")
-                try:
-                    full_lyrics = u' '.join((full_lyrics, lyric.text)).encode('utf-8').strip()
-                except:
-                    print('Something went wrong!')
-
+            try:
+                full_lyrics = u' '.join((full_lyrics, lyric.text)).encode('utf-8').strip()
+            except:
+                print('Something went wrong!')
+        print('full_lyrics is...%s', full_lyrics)
         # First two lines
         logging.info("All lines extracted...")
 
         lyric_list = full_lyrics.splitlines()
+        print lyric_list
         for lyric_line in lyric_list:
             logging.info("> " + str(lyric_line))
 
@@ -70,9 +74,10 @@ def get_lyrics(url):
         return first_two_lines
 
     except requests.exceptions.HTTPError as err:
+        # Don't worry if it doesn't work, just carry on with the next search
         pass
-        print err
-        sys.exit(1)
+        #print err
+        #sys.exit(1)
 
 
 if __name__ == '__main__':

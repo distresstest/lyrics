@@ -1,0 +1,1 @@
+__all__ = ['test_lyric_manager', 'lyric_manager']

@@ -13,7 +13,6 @@ The Flying Lizards,TV
 John Foxx,Underpass
 Peter Gabriel,No Self Control
 Genesis,Turn It On Again
-Gibson Brothers,Cuba
 Eddy Grant,Do You Feel My Love
 Hot Chocolate,No Doubt About It
 The Human League,Rock 'N' Roll
@@ -42,7 +41,6 @@ The Piranhas,Tom Hark
 The Pretenders,Brass in Pocket
 Prima Donna,Love Enough For Two
 Cliff Richard,Dreamin'
-Roxy Music,Over You
 Jimmy Ruffin,Hold On (To My Love)
 Saxon,Wheels of Steel
 Showaddywaddy,Blue Moon
@@ -148,7 +146,6 @@ The Boomtown Rats,House on Fire
 Bow Wow Wow,Go Wild in the Country
 Boys Town Gang,Can't Take My Eyes Off You
 Bucks Fizz,The Land of Make Believe
-Clannad,Theme From Harry's Game
 David Christie,Saddle Up
 Depeche Mode,See You
 Dexys Midnight Runners,Come On Eileen
@@ -481,7 +478,6 @@ Talk Talk,Life's What You Make It
 Timex Social Club,Rumors
 Kim Wilde,You Keep Me Hangin' On
 ABC,When Smokey Sings
-Donna Allen,Serious
 Rick Astley,Never Gonna Give You Up
 Bananarama,I Heard a Rumour
 Bee Gees,You Win Again
@@ -514,7 +510,6 @@ Marillion,Sugar Mice
 Paul McCartney,Once Upon a Long Ago
 Mel and Kim,Respectable
 Mental As Anything,Live It Up
-Gary Moore,Over the Hills and Far Away
 Alison Moyet,Is This Love?
 New Order,True Faith
 Alexander O'Neal,Criticize
